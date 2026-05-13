@@ -29,3 +29,8 @@
   Spacemanspark:
   - bugfix: Characters with the 'mute' quirk/trait can now use the 'Do' command as
       intended.
+2026-05-13:
+  ManiacalAnxiety:
+  - rscadd: 'Added the following items to loadout: "Coalition Police Official Jacket",
+      "Coalition Police Aerostatic Bomber Jacket", "Coalition Police Baseball Cap",
+      "Coalition Police Cap"'
