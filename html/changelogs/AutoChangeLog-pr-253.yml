@@ -1,0 +1,5 @@
+author: "XeonMations"
+delete-after: True
+changes:
+  - rscadd: "Added the Boneless quirk, which removes the ability to take bone related wounds and affects surgery."
+  - rscadd: "Added the Unsubscribed quirk, which stops you from getting mail."
