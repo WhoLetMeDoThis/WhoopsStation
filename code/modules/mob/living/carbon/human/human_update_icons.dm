@@ -1377,8 +1377,8 @@ mutant_styles: The mutant style - taur bodytype, STYLE_TESHARI, etc. // NOVA EDI
 	var/static/icon/cut_legs_mask = icon('icons/effects/cut.dmi', "Cut2")
 	var/static/icon/lenghten_torso_mask = icon('icons/effects/cut.dmi', "Cut3")
 	var/static/icon/lenghten_legs_mask = icon('icons/effects/cut.dmi', "Cut4")
-	var/static/icon/lenghten_arms_mask = icon('icons/effects/cut.dmi', "Cut5")
 */ // IRIS EDIT REMOVAL END
+	var/static/icon/lenghten_arms_mask = icon('icons/effects/cut.dmi', "Cut5")
 
 	// IRIS EDIT ADDITION START - Height-based displacement masks.
 	var/static/list/screamed_icons
