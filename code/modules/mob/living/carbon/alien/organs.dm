@@ -95,7 +95,7 @@
 
 /obj/item/organ/alien/plasmavessel/on_mob_remove(mob/living/carbon/organ_owner)
 	. = ..()
-	UnregisterSignal(organ_owner, COMSIG_MOB_GET_STATUS_TAB_ITEMS)
+	UnregisterSignal(organ_owner, list(COMSIG_MOB_GET_STATUS_TAB_ITEMS, COMSIG_MOB_HUD_CREATED)) // OCULIS EDIT: also unregister COMSIG_MOB_HUD_CREATED. I think this is an upstream bug too but I just want to fix unit tests rn. ~Lucy
 	organ_owner.hud_used?.remove_screen_object(HUD_ALIEN_PLASMA_DISPLAY)
 
 /obj/item/organ/alien/plasmavessel/proc/update_plasma_display()
