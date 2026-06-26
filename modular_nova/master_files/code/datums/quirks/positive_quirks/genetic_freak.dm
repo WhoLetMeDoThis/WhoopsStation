@@ -31,11 +31,11 @@ GLOBAL_LIST_INIT(genetic_mutation_choice, list(
 	"Restorative Metabolism" = /datum/mutation/restorative_metabolism,
 	"Dwarfism" = /datum/mutation/dwarfism, // OCULIS EDIT
 	"Chameleon" = /datum/mutation/chameleon, // OCULIS EDIT
-	"Clumsiness" = /datum/mutation/clumsy, // OCULIS EDIT 2
-	"Hypermetabolic Blood" = /datum/mutation/bloodier, // OCULIS EDIT 2
-	"Epilepsy" = /datum/mutation/epilepsy, // OCULIS EDIT 2
-	"Rock Eater" = /datum/mutation/rock_eater, // OCULIS EDIT 2
-	"Two Left Feet" = /datum/mutation/extrastun // OCULIS EDIT 2
+	"Clumsiness" = /datum/mutation/clumsy, // OCULIS EDIT
+	"Hypermetabolic Blood" = /datum/mutation/bloodier, // OCULIS EDIT
+	"Epilepsy" = /datum/mutation/epilepsy, // OCULIS EDIT
+	"Rock Eater" = /datum/mutation/rock_eater, // OCULIS EDIT
+	"Two Left Feet" = /datum/mutation/extrastun // OCULIS EDIT
 ))
 
 /datum/quirk/genetic_mutation
