@@ -115,3 +115,8 @@
       heal organic limbs but can heal robotic limbs, a plasmaman chest having hemophage
       (if you for some reason created one) would be able to heal golem limbs and plasmaman
       limbs but not robotic or organic ones, etc.
+2026-06-27:
+  Absolucy, Flleeppyy:
+  - rscadd: Added a websocket client, you can now forward incoming chat messages to
+      an external program, i.e allowing you to change music playlists based on events,
+      or such.
